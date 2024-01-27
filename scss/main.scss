@@ -1,0 +1,116 @@
+@use "./layout";
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+//  HEADER
+
+.dark header {
+  background: #888888;
+  .nav_items {
+    background: #888;
+    .nav-items {
+      a {
+        color: #fff;
+        transition: 0.4s;
+        &:hover {
+          color: rgb(239, 201, 9);
+        }
+      }
+    }
+    .nav-btns {
+      a {
+        color: #222;
+      }
+    }
+  }
+}
+
+// FOOOTER
+.dark footer {
+  background: #888888;
+}
+.dark footer .footer_cards .footer_card h6 {
+  color: #fff !important;
+}
+.dark footer .footer_cards .footer_card p {
+  color: #fff !important;
+}
+.dark footer .footer_cards .footer-card a {
+  color: #fff !important;
+}
+.dark footer .footer_cards .footer-card h6 {
+  color: #fff;
+}
+.dark footer .footer_cards .footer-card p {
+  color: #fff !important;
+}
+
+.dark footer .footer_cards .foot_cards .footer_card {
+  a {
+    color: #fff;
+    transition: 0.4s;
+    &:hover {
+      color: #aaa;
+    }
+  }
+}
+.dark footer .footer_cards .foot_cards .footer_card h6 {
+  color: #fff;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.m-top {
+  background: #000;
+  .M-top {
+    padding: 13px;
+    button {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.3);
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+
+      /* Overline */
+      font-family: Montserrat;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 14px */
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: 0.4s;
+      &:active {
+        color: #fff;
+      }
+      &:focus {
+        color: #fff;
+      }
+    }
+  }
+}
