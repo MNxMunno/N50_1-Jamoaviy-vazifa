@@ -10,6 +10,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .logo {
+      color: var(--Black, #0d0d0d);
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Poppins;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 32.2px */
+      letter-spacing: 0.4px;
+    }
     .nav_items {
       width: 85%;
       display: flex;

@@ -1,8 +1,14 @@
-@use "./layout";
+@use "layout" as *;
+@use "pages" as *;
+@use "themes" as *;
 
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 * {
@@ -19,6 +25,9 @@ html {
 
 .dark header {
   background: #888888;
+  .logo {
+    color: #fff;
+  }
   .nav_items {
     background: #888;
     .nav-items {
@@ -32,7 +41,7 @@ html {
     }
     .nav-btns {
       a {
-        color: #222;
+        color: #fff;
       }
     }
   }

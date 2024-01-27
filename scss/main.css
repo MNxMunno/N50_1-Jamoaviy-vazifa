@@ -12,6 +12,16 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
+header nav .logo {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 32.2px */
+  letter-spacing: 0.4px;
+}
 header nav .nav_items {
   width: 85%;
   display: flex;
@@ -378,6 +388,10 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
 }
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -391,6 +405,9 @@ html {
 .dark header {
   background: #888888;
 }
+.dark header .logo {
+  color: #fff;
+}
 .dark header .nav_items {
   background: #888;
 }
@@ -402,7 +419,7 @@ html {
   color: rgb(239, 201, 9);
 }
 .dark header .nav_items .nav-btns a {
-  color: #222;
+  color: #fff;
 }
 
 .dark footer {
