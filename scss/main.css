@@ -384,6 +384,111 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   }
 }
 
+.desk-2 .desk-2-content .desk-2__cards .desk-2__card p {
+  color: 0;
+}
+
+.main-section-desktop-3 {
+  margin: 56px 0 64px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.main-section-desktop-3 h1 {
+  text-align: center;
+  margin: 56px 0 48px 0;
+}
+.main-section-desktop-3 h2 {
+  display: none;
+}
+.main-section-desktop-3 .registiration {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.main-section-desktop-3 .registiration .r-left img {
+  max-width: 658px;
+  width: 100%;
+  height: auto;
+}
+.main-section-desktop-3 .registiration .r-right .input {
+  background: #fff;
+  width: 555px;
+  height: 60px;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.main-section-desktop-3 .registiration .r-right input {
+  border: none;
+  outline: none;
+  width: 500px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main-section-desktop-3 .registiration .r-right label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-section-desktop-3 .registiration .btn-reg {
+  padding: 13px;
+  width: 236px;
+  height: 44px;
+  background-color: #ffc000;
+  font-size: 16px;
+}
+
+.reggy {
+  display: none;
+}
+
+@media only screen and (max-width: 1312px) {
+  .registiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .reg {
+    display: none;
+  }
+  .reggy {
+    display: block;
+    text-align: left !important;
+  }
+}
+@media only screen and (max-width: 594px) {
+  .r-right .input {
+    width: 319px !important;
+    height: 44px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .r-right input {
+    border: none;
+    outline: none;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .r-right label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .btn-register button {
+    padding: 13px;
+    width: 319px !important;
+    height: 44px;
+    background-color: #ffc000;
+    font-size: 16px;
+  }
+}
 .hero {
   background: linear-gradient(99deg, #e1aa00 0%, #ffc000 74.72%);
   padding-top: 203px;
