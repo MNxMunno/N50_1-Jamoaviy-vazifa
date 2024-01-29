@@ -384,6 +384,586 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   }
 }
 
+.Macbook {
+  background: var(--Gray-6, #FAFAFA);
+}
+.Macbook .all .weel > h1 {
+  text-align: center;
+  padding: 32px;
+  color: #000;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.Macbook .all .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 110px;
+}
+.Macbook .all .column .column-all h1 {
+  width: 575px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.Macbook .all .column .column-all p {
+  width: 575px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+}
+.Macbook .all .column .img > img {
+  width: 460px;
+  height: 412.005px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.Macbook .hammasi {
+  background-color: white;
+}
+.Macbook .hammasi .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.Macbook .hammasi .text h1 {
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.Macbook .hammasi .hammasi-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+  flex-wrap: wrap;
+}
+.Macbook .hammasi .hammasi-all .hammasi-column img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-left: 35%;
+}
+.Macbook .hammasi .hammasi-all .hammasi-column p {
+  color: var(--Black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  margin-top: 20px;
+}
+.Macbook .list {
+  background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+}
+.Macbook .list .list-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 180px;
+  margin-top: 250px;
+}
+.Macbook .list .list-all .list-column img {
+  width: 259.162px;
+  height: 469.472px;
+  transform: rotate(-8.019deg);
+  flex-shrink: 0;
+  margin-top: -140px;
+}
+.Macbook .list .list-all h1 {
+  width: 700px;
+  height: 96px;
+  flex-shrink: 0;
+  color: var(--White, #FFF);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.Macbook .list .list-all p {
+  width: 700px;
+  height: 96px;
+  color: var(--White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.Macbook .list .list-all .rasm1 {
+  display: flex;
+  gap: 20px;
+}
+.Macbook .list .list-all .rasm1 img {
+  width: 165px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.Macbook .list_all .list_hammasi {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  padding: 120px 0;
+}
+.Macbook .list_all .list_hammasi .list_well img {
+  width: 600px;
+  height: 504.523px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.Macbook .list_all .list_hammasi .text2 h1 {
+  width: 460px;
+  height: 128px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px;
+}
+.Macbook .list_all .list_hammasi .text2 .col {
+  display: flex;
+  padding: 50px 0;
+  gap: 160px;
+  line-height: 1.5;
+}
+.Macbook .list_all .list_hammasi .text2 .col .text5 h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.Macbook .list_all .list_hammasi .text2 .col .text5 p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.Macbook .list_all .list_hammasi .text2 .rock {
+  display: flex;
+  padding: 30px 0;
+  gap: 160px;
+  line-height: 1.5;
+}
+.Macbook footer {
+  margin-top: 1%;
+}
+.Macbook #backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: -50px;
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.6s;
+}
+
+@media only screen and (max-width: 1038px) {
+  .Macbook .hammasi .hammasi-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Macbook .list {
+    background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+  }
+  .Macbook .list .list-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 180px;
+    margin-top: 250px;
+  }
+  .Macbook .list .list-all h1 {
+    width: 500px;
+    text-align: center;
+  }
+  .Macbook .list .list-all p {
+    width: 500px;
+  }
+  .Macbook .list .list-all .rasm1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Macbook .list_all .list_hammasi {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    padding: 120px 0;
+  }
+  .Macbook .list_all .list_hammasi .list_well img {
+    width: 500px;
+    height: 504.523px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  }
+  .Macbook #backtop {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.6s;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Macbook {
+    background: var(--Gray-6, #FAFAFA);
+  }
+  .Macbook .all .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .Macbook .all .column .column-all h1 {
+    width: 400px;
+    text-align: center;
+  }
+  .Macbook .all .column .column-all p {
+    width: 400px;
+    text-align: center;
+  }
+  .Macbook .hammasi .hammasi-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .Macbook .list {
+    background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+  }
+  .Macbook .list .list-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 250px;
+  }
+  .Macbook .list .list-all .list-column img {
+    width: 259.162px;
+    height: 469.472px;
+    transform: rotate(-8.019deg);
+    flex-shrink: 0;
+    margin-top: -140px;
+  }
+  .Macbook .list .list-all h1 {
+    width: 400px;
+    text-align: center;
+  }
+  .Macbook .list .list-all p {
+    width: 400px;
+    text-align: center;
+  }
+  .Macbook .list .list-all .rasm1 {
+    display: flex;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  .Macbook .list_all .list_hammasi {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    padding: 120px 0;
+  }
+  .Macbook .list_all .list_hammasi .list_well img {
+    width: 400px;
+    height: 404.523px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  }
+  .Macbook .list_all .list_hammasi .text2 h1 {
+    width: 400px;
+    text-align: center;
+    height: 128px;
+    font-size: 34px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col {
+    display: flex;
+    padding: 50px 0;
+    gap: 160px;
+    line-height: 1.5;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col .text5 h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col .text5 p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .rock {
+    display: flex;
+    padding: 30px 0;
+    gap: 160px;
+    line-height: 1.5;
+  }
+  .Macbook footer {
+    margin-top: 1%;
+  }
+  .Macbook #backtop {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.6s;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .Macbook .list {
+    background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+  }
+  .Macbook .list .list-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 250px;
+  }
+  .Macbook .list .list-all .list-column img {
+    width: 259.162px;
+    height: 469.472px;
+    transform: rotate(-8.019deg);
+    flex-shrink: 0;
+    margin-top: -140px;
+  }
+  .Macbook .list .list-all h1 {
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .Macbook .list .list-all p {
+    width: 350px;
+    text-align: center;
+  }
+  .Macbook .list .list-all .rasm1 {
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Macbook {
+    background: var(--Gray-6, #FAFAFA);
+  }
+  .Macbook .all .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .Macbook .all .column .column-all {
+    text-align: center;
+  }
+  .Macbook .all .column .column-all h1 {
+    width: 400px;
+    text-align: center;
+  }
+  .Macbook .all .column .column-all p {
+    width: 350px;
+    text-align: center;
+  }
+  .Macbook .all .column .column-all .img > img {
+    width: 350px;
+    height: 350.005px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  }
+  .Macbook .hammasi .hammasi-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .Macbook .list {
+    background: radial-gradient(1075.73% 141.42% at 0% 0%, #0F0D2B 0%, #0C0926 100%);
+  }
+  .Macbook .list .list-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 250px;
+  }
+  .Macbook .list .list-all .list-column img {
+    width: 259.162px;
+    height: 469.472px;
+    transform: rotate(-8.019deg);
+    flex-shrink: 0;
+    margin-top: -140px;
+  }
+  .Macbook .list .list-all h1 {
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .Macbook .list .list-all p {
+    width: 350px;
+    text-align: center;
+  }
+  .Macbook .list .list-all .rasm1 {
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+  }
+  .Macbook .list_all .list_hammasi {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    padding: 120px 0;
+  }
+  .Macbook .list_all .list_hammasi .list_well img {
+    width: 350px;
+    height: 350.523px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  }
+  .Macbook .list_all .list_hammasi .text2 h1 {
+    width: 350px;
+    text-align: center;
+    height: 128px;
+    font-size: 34px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    line-height: 1.5;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col .text5 h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .col .text5 p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .Macbook .list_all .list_hammasi .text2 .rock {
+    display: flex;
+    padding: 30px 0;
+    gap: 160px;
+    line-height: 1.5;
+  }
+  .Macbook footer {
+    margin-top: 1%;
+  }
+  .Macbook #backtop {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.6s;
+  }
+}
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
