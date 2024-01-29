@@ -384,7 +384,6 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   }
 }
 
-<<<<<<< HEAD
 .Macbook {
   background: var(--Gray-6, #FAFAFA);
 }
@@ -965,7 +964,6 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     transition: 0.6s;
   }
 }
-=======
 .desk-2 .desk-2-content .desk-2__cards .desk-2__card p {
   color: 0;
 }
@@ -1540,7 +1538,6 @@ main {
   }
 }
 
->>>>>>> 484f28990cc14183e32d1e6b4a0f5d84471d3d85
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Regular.ttf);
