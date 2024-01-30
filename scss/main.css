@@ -967,6 +967,9 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     transition: 0.6s;
   }
 }
+.macbook32 main .categor-cards {
+  padding-top: 40px;
+}
 .macbook32 main .categor-cards .categor-content .categor-head .main-text {
   color: #000;
   font-variant-numeric: lining-nums proportional-nums;
@@ -985,8 +988,11 @@ footer .footer_cards .foot_cards .footer_card a:hover {
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu {
   width: 264px;
-  height: 288px;
+  height: 320px;
+  align-items: center;
   flex-shrink: 0;
+  padding-left: 16px;
+  margin-top: 32px;
   background: #fff;
   padding-top: 32px;
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
@@ -1019,7 +1025,7 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   letter-spacing: 0.15px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main svg {
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main {
   width: 200px;
@@ -1040,7 +1046,7 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   letter-spacing: 0.15px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main svg {
-  margin-left: 67px;
+  margin-left: 96px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main {
   width: 200px;
@@ -1061,7 +1067,7 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   letter-spacing: 0.15px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main svg {
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button {
   width: 232px;
@@ -1069,6 +1075,11 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   flex-shrink: 0;
   background: var(--Yellow, #ffc000);
   margin-top: 20px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button:hover {
+  box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  transition: 0.3s;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards {
   display: flex;
@@ -1112,10 +1123,23 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   text-transform: uppercase;
 }
 .macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card:hover {
+  transition: 0.3s;
+  border-radius: 10px;
   background: #fff;
   box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
 }
 
+@media screen and (max-width: 1220px) {
+  .macbook32 main .cards-page {
+    flex-wrap: wrap;
+  }
+  .macbook32 main .cards-page .cards {
+    flex-wrap: wrap;
+  }
+  .macbook32 main .cards-page .cards-menu {
+    margin-left: 20px;
+  }
+}
 .list {
   background: var(--Gray-6, #FAFAFA);
 }

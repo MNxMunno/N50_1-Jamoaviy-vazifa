@@ -1,6 +1,7 @@
 .macbook32 {
   main {
     .categor-cards {
+      padding-top: 40px;
       .categor-content {
         .categor-head {
           .main-text {
@@ -21,8 +22,11 @@
           display: flex;
           .cards-menu {
             width: 264px;
-            height: 288px;
+            height: 320px;
+            align-items: center;
             flex-shrink: 0;
+            padding-left: 16px;
+            margin-top: 32px;
             background: #fff;
             padding-top: 32px;
             box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
@@ -53,7 +57,7 @@
                 letter-spacing: 0.15px;
               }
               svg {
-                margin-left: 50px;
+                margin-left: 80px;
               }
             }
             .gender-main {
@@ -74,7 +78,7 @@
                 letter-spacing: 0.15px;
               }
               svg {
-                margin-left: 67px;
+                margin-left: 96px;
               }
             }
             .price-main {
@@ -95,7 +99,7 @@
                 letter-spacing: 0.15px;
               }
               svg {
-                margin-left: 90px;
+                margin-left: 120px;
               }
             }
             .menu-btn {
@@ -105,6 +109,11 @@
                 flex-shrink: 0;
                 background: var(--Yellow, #ffc000);
                 margin-top: 20px;
+              }
+              button:hover {
+                box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
+                color: #fff;
+                transition: 0.3s;
               }
             }
           }
@@ -150,6 +159,8 @@
                 }
               }
               .card:hover {
+                transition: 0.3s;
+                border-radius: 10px;
                 background: #fff;
                 box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
               }
@@ -162,5 +173,16 @@
 }
 @media screen and (max-width: 1220px) {
   .macbook32 {
+    main {
+      .cards-page {
+        flex-wrap: wrap;
+        .cards {
+          flex-wrap: wrap;
+        }
+        .cards-menu {
+          margin-left: 20px;
+        }
+      }
+    }
   }
 }
