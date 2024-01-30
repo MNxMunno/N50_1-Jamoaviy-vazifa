@@ -1,0 +1,166 @@
+.macbook32 {
+  main {
+    .categor-cards {
+      .categor-content {
+        .categor-head {
+          .main-text {
+            color: #000;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%; /* 19.6px */
+            letter-spacing: 0.1px;
+          }
+          .main-text:hover {
+            font-weight: 700;
+          }
+        }
+        .cards-page {
+          display: flex;
+          .cards-menu {
+            width: 264px;
+            height: 288px;
+            flex-shrink: 0;
+            background: #fff;
+            padding-top: 32px;
+            box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+            .filter {
+              color: #000;
+              font-variant-numeric: lining-nums proportional-nums;
+              font-family: "Gotham Pro";
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 32px; /* 106.667% */
+            }
+            .category-main {
+              width: 200px;
+              height: 40px;
+              flex-shrink: 0;
+              background: #fff;
+              box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+              margin-top: 20px;
+              p {
+                color: #000;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; /* 28px */
+                letter-spacing: 0.15px;
+              }
+              svg {
+                margin-left: 50px;
+              }
+            }
+            .gender-main {
+              width: 200px;
+              height: 40px;
+              flex-shrink: 0;
+              background: #fff;
+              box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+              margin-top: 20px;
+              p {
+                color: #000;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; /* 28px */
+                letter-spacing: 0.15px;
+              }
+              svg {
+                margin-left: 67px;
+              }
+            }
+            .price-main {
+              width: 200px;
+              height: 40px;
+              flex-shrink: 0;
+              background: #fff;
+              box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+              margin-top: 20px;
+              p {
+                color: #000;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; /* 28px */
+                letter-spacing: 0.15px;
+              }
+              svg {
+                margin-left: 90px;
+              }
+            }
+            .menu-btn {
+              button {
+                width: 232px;
+                height: 40px;
+                flex-shrink: 0;
+                background: var(--Yellow, #ffc000);
+                margin-top: 20px;
+              }
+            }
+          }
+          .cards-blok {
+            .cards {
+              display: flex;
+              gap: 30px;
+              .card {
+                width: 264px;
+                height: 340px;
+                flex-shrink: 0;
+                margin-top: 32px;
+                margin-left: 30px;
+                h1 {
+                  padding-top: 8px;
+                  width: 245px;
+                  color: var(--Black, #000);
+                  font-variant-numeric: lining-nums proportional-nums;
+                  font-family: Montserrat;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 140%; /* 19.6px */
+                  letter-spacing: 0.75px;
+                  text-transform: uppercase;
+                }
+                .stars {
+                  padding-top: 8px;
+                  display: flex;
+                  align-items: center;
+                  gap: 115px;
+                  p {
+                    color: var(--Black, #000);
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Montserrat;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%; /* 14px */
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                  }
+                }
+              }
+              .card:hover {
+                background: #fff;
+                box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1220px) {
+  .macbook32 {
+  }
+}
