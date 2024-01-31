@@ -968,7 +968,179 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     transition: 0.6s;
   }
 }
-<<<<<<< HEAD
+.macbook32 main .categor-cards {
+  padding-top: 40px;
+}
+.macbook32 main .categor-cards .categor-content .categor-head .main-text {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+}
+.macbook32 main .categor-cards .categor-content .categor-head .main-text:hover {
+  font-weight: 700;
+}
+.macbook32 main .categor-cards .categor-content .cards-page {
+  display: flex;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu {
+  width: 264px;
+  height: 320px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 16px;
+  margin-top: 32px;
+  background: #fff;
+  padding-top: 32px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .filter {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Gotham Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 106.667% */
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main {
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.15px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main svg {
+  margin-left: 80px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main {
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.15px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main svg {
+  margin-left: 96px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main {
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.15px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main svg {
+  margin-left: 120px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button {
+  width: 232px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--Yellow, #ffc000);
+  margin-top: 20px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button:hover {
+  box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  transition: 0.3s;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards {
+  display: flex;
+  gap: 30px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card {
+  width: 264px;
+  height: 340px;
+  flex-shrink: 0;
+  margin-top: 32px;
+  margin-left: 30px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card h1 {
+  padding-top: 8px;
+  width: 245px;
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card .stars {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 115px;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card .stars p {
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 14px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card:hover {
+  transition: 0.3s;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 1220px) {
+  .macbook32 main .cards-page {
+    flex-wrap: wrap;
+  }
+  .macbook32 main .cards-page .cards {
+    flex-wrap: wrap;
+  }
+  .macbook32 main .cards-page .cards-menu {
+    margin-left: 20px;
+  }
+}
 .kvadrat {
   border: 1px solid #ccc;
   padding: 12px;
@@ -1500,178 +1672,6 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   .footer_card_section_mobilni_wraper {
     max-width: 320px;
     margin-bottom: 40px;
-=======
-.macbook32 main .categor-cards {
-  padding-top: 40px;
-}
-.macbook32 main .categor-cards .categor-content .categor-head .main-text {
-  color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%; /* 19.6px */
-  letter-spacing: 0.1px;
-}
-.macbook32 main .categor-cards .categor-content .categor-head .main-text:hover {
-  font-weight: 700;
-}
-.macbook32 main .categor-cards .categor-content .cards-page {
-  display: flex;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu {
-  width: 264px;
-  height: 320px;
-  align-items: center;
-  flex-shrink: 0;
-  padding-left: 16px;
-  margin-top: 32px;
-  background: #fff;
-  padding-top: 32px;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .filter {
-  color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: "Gotham Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 106.667% */
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main {
-  width: 200px;
-  height: 40px;
-  flex-shrink: 0;
-  background: #fff;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main p {
-  color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 28px */
-  letter-spacing: 0.15px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .category-main svg {
-  margin-left: 80px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main {
-  width: 200px;
-  height: 40px;
-  flex-shrink: 0;
-  background: #fff;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main p {
-  color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 28px */
-  letter-spacing: 0.15px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .gender-main svg {
-  margin-left: 96px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main {
-  width: 200px;
-  height: 40px;
-  flex-shrink: 0;
-  background: #fff;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main p {
-  color: #000;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 28px */
-  letter-spacing: 0.15px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .price-main svg {
-  margin-left: 120px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button {
-  width: 232px;
-  height: 40px;
-  flex-shrink: 0;
-  background: var(--Yellow, #ffc000);
-  margin-top: 20px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-menu .menu-btn button:hover {
-  box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
-  color: #fff;
-  transition: 0.3s;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards {
-  display: flex;
-  gap: 30px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card {
-  width: 264px;
-  height: 340px;
-  flex-shrink: 0;
-  margin-top: 32px;
-  margin-left: 30px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card h1 {
-  padding-top: 8px;
-  width: 245px;
-  color: var(--Black, #000);
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 140%; /* 19.6px */
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card .stars {
-  padding-top: 8px;
-  display: flex;
-  align-items: center;
-  gap: 115px;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card .stars p {
-  color: var(--Black, #000);
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: Montserrat;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 140%; /* 14px */
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-.macbook32 main .categor-cards .categor-content .cards-page .cards-blok .cards .card:hover {
-  transition: 0.3s;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 98px 0px 98px 0px rgba(0, 0, 0, 0.05);
-}
-
-@media screen and (max-width: 1220px) {
-  .macbook32 main .cards-page {
-    flex-wrap: wrap;
-  }
-  .macbook32 main .cards-page .cards {
-    flex-wrap: wrap;
-  }
-  .macbook32 main .cards-page .cards-menu {
-    margin-left: 20px;
   }
 }
 .list {
@@ -2097,7 +2097,6 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     justify-content: center;
     align-items: center;
     height: 11vh;
->>>>>>> adfde37725d7dfa8e1c47f50283249dbeac76e36
   }
 }
 .desk-2 .desk-2-content .desk-2__cards .desk-2__card p {
