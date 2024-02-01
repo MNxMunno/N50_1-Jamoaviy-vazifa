@@ -1211,7 +1211,7 @@ footer .footer_cards .foot_cards .footer_card a:hover {
 
 .card_wraper1 {
   max-width: 264px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .yecro_money {
@@ -1537,7 +1537,7 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   }
   .kvadrat_mobilni {
     border-radius: 6px;
-    border: 1px solid #DBDEE7;
+    border: 1px solid #dbdee7;
     padding: 12px;
   }
   .btn_mobilni_one {
@@ -2099,6 +2099,51 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     height: 11vh;
   }
 }
+.desck-1 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 86px 0;
+}
+.desck-1 .cards .card img {
+  width: 100%;
+}
+.desck-1 .cards .card h1 {
+  max-width: 551px;
+  font-size: 36px;
+  font-family: Montserrat;
+  line-height: 42px;
+  font-weight: 600;
+  color: #020;
+}
+.desck-1 .cards .card p {
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: Montserrat;
+  padding: 20px 0;
+}
+.desck-1 .cards .card button {
+  background: rgb(230, 182, 7);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat;
+  color: #000;
+  padding: 12px 36px;
+  border-radius: 12px;
+  transition: 0.4s;
+}
+.desck-1 .cards .card button:hover {
+  background: rgb(171, 134, 4);
+}
+@media only screen and (max-width: 420px) {
+  .desck-1 .cards .card h1 {
+    font-size: 24px;
+  }
+}
+
 .desk-2 .content h1 {
   text-align: center;
   padding: 50px 0 20px;
