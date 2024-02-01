@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap");
+
+.yagona {
+  background-color: #fafafa;
+}
+
+.post {
+  padding-top: 80px;
+  padding-bottom: 72px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .frist_ustun {
+    button {
+      color: var(--Black, #0d0d0d);
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 22.4px */
+      border-radius: 6px;
+      background: var(--Yellow, #ffc000);
+      padding: 9px 90px;
+      margin-top: 10px;
+      border: 2px solid #ffc000;
+      &:hover {
+        background-color: transparent;
+        transition: 0.4s;
+      }
+    }
+  }
+  .second_ustun {
+    label {
+      display: block;
+      color: #000;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      padding-bottom: 8px;
+    }
+    input {
+      width: 264px;
+      height: 44px;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      outline: none;
+      border-radius: 6px;
+      border: 1px solid #dbdee7;
+      display: block;
+      background-color: transparent;
+      &::placeholder {
+        color: var(--Black, #0d0d0d);
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+      }
+    }
+    a {
+      color: #ffc000;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Montserrat;
+      font-size: 12px;
+    }
+  }
+  .ustun_3 {
+    label {
+      display: block;
+      color: #000;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      padding-bottom: 8px;
+    }
+    input {
+      width: 313px;
+      height: 44px;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      outline: none;
+      border-radius: 6px;
+      border: 1px solid #dbdee7;
+      display: block;
+      background-color: transparent;
+      &::placeholder {
+        color: var(--Black, #0d0d0d);
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .post {
+    .second_ustun {
+      padding-top: 24px;
+      input {
+        width: 313px;
+      }
+    }
+    .ustun_3 {
+      padding-top: 32px;
+    }
+  }
+}

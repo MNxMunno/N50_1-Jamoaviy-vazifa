@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap");
 header {
   background-color: #fff;
   position: sticky;
@@ -2288,6 +2289,133 @@ footer .footer_cards .foot_cards .footer_card a:hover {
   }
   .content .inputs button {
     width: 210%;
+  }
+}
+.yagona {
+  background-color: #fafafa;
+}
+
+.post {
+  padding-top: 80px;
+  padding-bottom: 72px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.post .frist_ustun button {
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  padding: 9px 90px;
+  margin-top: 10px;
+  border: 2px solid #ffc000;
+}
+.post .frist_ustun button:hover {
+  background-color: transparent;
+  transition: 0.4s;
+}
+.post .second_ustun label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .second_ustun input {
+  width: 264px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+  background-color: transparent;
+}
+.post .second_ustun input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun a {
+  color: #ffc000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+.post .ustun_3 label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .ustun_3 input {
+  width: 313px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+  background-color: transparent;
+}
+.post .ustun_3 input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .ustun_3 input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media only screen and (max-width: 380px) {
+  .post .second_ustun {
+    padding-top: 24px;
+  }
+  .post .second_ustun input {
+    width: 313px;
+  }
+  .post .ustun_3 {
+    padding-top: 32px;
   }
 }
 .desck-1 .cards {
