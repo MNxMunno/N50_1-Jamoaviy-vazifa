@@ -2099,8 +2099,60 @@ footer .footer_cards .foot_cards .footer_card a:hover {
     height: 11vh;
   }
 }
-.desk-2 .desk-2-content .desk-2__cards .desk-2__card p {
-  color: 0;
+.desk-2 .content h1 {
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 36px;
+  font-family: Montserrat;
+  line-height: 32px;
+  font-weight: 600;
+  color: #020;
+}
+.desk-2 .content .cards {
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.desk-2 .content .cards .card {
+  display: flex;
+  max-width: 640px;
+}
+.desk-2 .content .cards .card img {
+  width: 100%;
+}
+.desk-2 .content .cards .card form {
+  width: 520px;
+}
+.desk-2 .content .cards .card form input {
+  display: block;
+  padding: 20px;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.desk-2 .content .cards .card form label {
+  font-size: 16px;
+  line-height: 36px;
+  font-family: Montserrat;
+}
+.desk-2 .content .cards .card form button {
+  font-family: Montserrat;
+  padding: 12px 48px;
+  background: rgb(250, 222, 12);
+  border-radius: 12px;
+}
+@media only screen and (max-width: 420px) {
+  .desk-2 .content .cards .card form {
+    width: 360px;
+    padding: 0 20px 0 0;
+  }
+  .desk-2 .content .cards .card form input {
+    width: 100%;
+  }
 }
 
 .main-section-desktop-3 {
